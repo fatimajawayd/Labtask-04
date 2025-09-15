@@ -137,7 +137,7 @@ int main(void)
     printf("Choose + for Addition, - for Subtraction, * for Multiplication, / for Division: ");
     scanf(" %c", &choice);
 
-    switch(choice){
+    switch(choice){   //chracter,numeric
        case '+':
            printf("Addition: %f\n", num1+num2);
            break;
